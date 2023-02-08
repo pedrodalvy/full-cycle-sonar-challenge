@@ -12,6 +12,10 @@ test("should multiply 2 * 3 and return 6", () => {
   expect(math.multiply(2, 3)).toBe(6);
 });
 
-test.skip("should divide 9 / 3 and return 3", () => {
+test("should divide 9 / 3 and return 3", () => {
   expect(math.divide(9, 3)).toBe(3);
+});
+
+test("Should return 2 when calculating the module of 5/3", () => {
+  expect(math.modulo(5, 3)).toBe(2);
 });
