@@ -11,7 +11,7 @@ module.exports = {
   divide: function (a, b) {
     return a / b;
   },
-  modulo: function (a, b) {
+  module: function (a, b) {
     return a % b;
   },
 };

@@ -17,5 +17,5 @@ test("should divide 9 / 3 and return 3", () => {
 });
 
 test("Should return 2 when calculating the module of 5/3", () => {
-  expect(math.modulo(5, 3)).toBe(2);
+  expect(math.module(5, 3)).toBe(2);
 });
